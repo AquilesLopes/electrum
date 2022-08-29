@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electrum E-commerce</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="header-top-container">
+                <div class="store-info-container">
+                    <span><i class="fa-solid fa-phone"></i> (55) 9 5555-5555</span>
+                    <span><i class="fa-solid fa-at"></i> contato@electrum.com.br</span>
+                    <span><i class="fa-solid fa-map-location"></i> Av. Paulista, nº 3,14</span>
+                </div>
+                <div class="header-user-top-menu">
+                    <span><i class="fa-solid fa-badge-dollar"></i> <a href="#">BRL</span>
+                    <span><i class="fa-solid fa-user"></i> <a href="#">Minha Conta</span>
+                </div>
+            </div>
+        </div>
+        <div class="main-header">
+            <div class="main-header-container">
+                <a href="#">Electrum <i class="fa-solid fa-bolt-lightning"></i></a>
+                <form action="" id="search-form">
+                    <input type="text" name="search" id="search" placeholder="Pesquisar" />
+                    <input type="submit" class="btn btn-half" value="Pesquisar" />
+                </form>
+                <div class="header-actions-menu">
+                    <div class="wishlist-container">
+                        <span class="qty">0</span>
+                        <i class="fa-solid fa-heart-circle-bolt"></i>
+                        <a href="#">Favoritos</a>
+                    </div>
+                    <div class="header-cart-container">
+                        <span class="qty">0</span>
+                        <i class="fa-solid fa-cart-arrow-down"></i>
+                        <a href="#">Carrinho</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <nav>
+                <ul class="main-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Promoções</a></li>
+                    <li><a href="#">Notebooks</a></li>
+                    <li><a href="#">Celulares</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="banners">
+        <div class="banner" id="banner-1">
+            <div class="banner-cover">
+                <div class="banner-content">
+                    <h2>Promoção de Notebooks</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vel consectetur iaculis, nisl nisi consectetur nisi, eget consectetur nisi nisi vel consectetur iaculis.</p>
+                    <a href="#" class="btn btn-full">Ver Mais <i class="fa-solid fa-circle-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="banner" id="banner-2">
+            <div class="banner-cover">
+                <div class="banner-content">
+                    <h2>Lançamento de Acessórios</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vel consectetur iaculis, nisl nisi consectetur nisi, eget consectetur nisi nisi vel consectetur iaculis.</p>
+                    <a href="#" class="btn btn-full">Ver Mais <i class="fa-solid fa-circle-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="banner" id="banner-3">
+            <div class="banner-cover">
+                <div class="banner-content">
+                    <h2>Câmeras Potentes</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vel consectetur iaculis, nisl nisi consectetur nisi, eget consectetur nisi nisi vel consectetur iaculis.</p>
+                    <a href="#" class="btn btn-full">Ver Mais <i class="fa-solid fa-circle-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="products-grid">
+        <h2>Produtos Novos</h2>
+        
+        <div class="products-grid-card">
+            <span class="label new">Produto 1</span>
+            <img src="img/prod-1.jpg" alt="Produto 1">
+            <p class="category">Categoria</p>
+            <h3 class="product-name">Nome do Produto</h3>
+            <p class="product-price">R$ 124,90</p>
+            <div class="rating-box">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <button class="btn">Comprar</button>
+        </div>
+        <div class="products-grid-card">
+            <span class="label new">Produto 2</span>
+            <img src="img/prod-2.jpg" alt="Produto 1">
+            <p class="category">Categoria</p>
+            <h3 class="product-name">Nome do Produto</h3>
+            <p class="product-price">R$ 124,90</p>
+            <div class="rating-box">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <button class="btn">Comprar</button>
+        </div>
+        <div class="products-grid-card">
+            <span class="label new">Produto 3</span>
+            <img src="img/prod-3.jpg" alt="Produto 1">
+            <p class="category">Categoria</p>
+            <h3 class="product-name">Nome do Produto</h3>
+            <p class="product-price">R$ 124,90</p>
+            <div class="rating-box">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <button class="btn">Comprar</button>
+        </div>
+        <div class="products-grid-card">
+            <span class="label new">Produto 4</span>
+            <img src="img/prod-4.jpg" alt="Produto 1">
+            <p class="category">Categoria</p>
+            <h3 class="product-name">Nome do Produto</h3>
+            <p class="product-price">R$ 124,90</p>
+            <div class="rating-box">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <button class="btn">Comprar</button>
+        </div>
+    </div>
+
+    <!-- Deal -->
+    <div class="deal-container">
+        <div class="deal-container-content">
+            <div class="deal-container-content-timer">
+                <div class="deal-container-timer">
+                    <span class="deal-container-timer-time">02</span>
+                    <span class="deal-container-timer-word">Dia</span>
+                </div>
+                <div class="deal-container-timer">
+                    <span class="deal-container-timer-time">12</span>
+                    <span class="deal-container-timer-word">Horas</span>
+                </div>
+                <div class="deal-container-timer">
+                    <span class="deal-container-timer-time">25</span>
+                    <span class="deal-container-timer-word">Minutos</span>
+                </div>
+                <div class="deal-container-timer">
+                    <span class="deal-container-timer-time">33</span>
+                    <span class="deal-container-timer-word">Segundos</span>
+                </div>
+            </div>
+            <h2 class="deal-container-content-title">Promoção de Fone Gamer</h2>
+            <p class="deal-container-content-subtitle">Toda a linha gamer com 50% de desconto</p>
+            <button class="btn">Comprar Agora</button>
+        </div>
+    </div>
+
+    <!-- Mais Vendidos -->
+    <div class="products-grid">
+        <h2>Produtos Novos</h2>
+        
+        <div class="products-grid-card">
+            <span class="label hot">Produto 5</span>
+            <img src="img/prod-5.jpg" alt="Produto 5">
+            <p class="category">Categoria</p>
+            <h3 class="product-name">Nome do Produto</h3>
+            <p class="product-price">R$ 124,90</p>
+            <div class="rating-box">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <button class="btn">Comprar</button>
+        </div>
+        <div class="products-grid-card">
+            <span class="label hot">Produto 6</span>
+            <img src="img/prod-6.jpg" alt="Produto 6">
+            <p class="category">Categoria</p>
+            <h3 class="product-name">Nome do Produto</h3>
+            <p class="product-price">R$ 124,90</p>
+            <div class="rating-box">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <button class="btn">Comprar</button>
+        </div>
+        <div class="products-grid-card">
+            <span class="label hot">Produto 7</span>
+            <img src="img/prod-7.jpg" alt="Produto 7">
+            <p class="category">Categoria</p>
+            <h3 class="product-name">Nome do Produto</h3>
+            <p class="product-price">R$ 124,90</p>
+            <div class="rating-box">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <button class="btn">Comprar</button>
+        </div>
+        <div class="products-grid-card">
+            <span class="label hot">Produto 8</span>
+            <img src="img/prod-8.jpg" alt="Produto 8">
+            <p class="category">Categoria</p>
+            <h3 class="product-name">Nome do Produto</h3>
+            <p class="product-price">R$ 124,90</p>
+            <div class="rating-box">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <button class="btn">Comprar</button>
+        </div>
+    </div>
+
+    <!-- NewsLetter -->
+    <div class="newsletter-container">
+        <h2>Assine a nossa <span>NewsLetter</span></h2>
+        <form action="">
+            <input type="email" name="email" id="email" placeholder="Informe seu e-mail">
+            <input type="submit" class="btn btn-half" value="Assinar">
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-top-about">
+                <h3>Sobre Nós</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                <p><i class="fa-solid fa-phone"></i> (55) 9 5555-5555</p>
+                <p><i class="fa-solid fa-at"></i> contato@electrum.com.br</p>
+                <p><i class="fa-solid fa-map-location"></i> Av. Paulista, nº 3,14</p>
+            </div>
+            <div class="footer-top-categories">
+                <h3>Categorias</h3>
+                <ul>
+                    <li><a href="#">Categoria 1</a></li>
+                    <li><a href="#">Categoria 2</a></li>
+                    <li><a href="#">Categoria 3</a></li>
+                    <li><a href="#">Categoria 4</a></li>
+                    <li><a href="#">Categoria 5</a></li>
+                </ul>
+            </div>
+            <div class="footer-top-informações">
+                <h3>Informações</h3>
+                <ul>
+                    <li><a href="#">Informação 1</a></li>
+                    <li><a href="#">Informação 2</a></li>
+                    <li><a href="#">Informação 3</a></li>
+                    <li><a href="#">Informação 4</a></li>
+                    <li><a href="#">Informação 5</a></li>
+                </ul>
+            </div>
+            <div class="footer-top-menu">
+                <h3>Menu</h3>
+                <ul>
+                    <li><a href="#">Minha Conta</a></li>
+                    <li><a href="#">Carrinho</a></li>
+                    <li><a href="#">Menu 3</a></li>
+                    <li><a href="#">Menu 4</a></li>
+                    <li><a href="#">Menu 5</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-bottom-payments">
+                <i class="fa-brands fa-cc-mastercard"></i>
+                <i class="fa-brands fa-cc-visa"></i>
+                <i class="fa-brands fa-cc-diners-club"></i>
+                <i class="fa-brands fa-pix"></i>
+            </div>
+            <p>Copyright &copy; 2022 - Electrum</p>
+        </div>
+    </footer>
+</body>
+</html>
